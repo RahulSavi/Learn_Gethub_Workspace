@@ -15,5 +15,20 @@ console.log(boolenislogedin);
 let number=33
 
 let convertstrinf =String(number);
-console.log(convertstrinf)
-console.log(typeof convertstrinf);
+// console.log(convertstrinf)
+// console.log(typeof convertstrinf);
+
+let value=3
+let negvalue =-value
+console.log(negvalue)
+
+let str1 ="hello"
+let str2 ="Logicmo Systems private Limited"
+
+let str3 =str1+str2;
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2")
+console.log("1"+2+2)
+console.log("1"-2)
