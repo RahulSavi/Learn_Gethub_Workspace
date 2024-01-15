@@ -26,3 +26,24 @@ console.log("Hello Rahul")
 }
 console.log(typeof bigNumber);
 
+//++++++++++++++++++++++++++++++++
+
+//Stack (primitive),Heap (Non-Primitive)
+
+let mycompanname="LogicMo Systems private Limited";
+anothername="LMSPL"
+console.log(mycompanname);
+console.log(anothername);
+
+let user={
+    email:"rahuly@logicmo.com",
+    empcode: 1020
+
+}
+//console.log(user)
+
+let userone=user
+userone.email="techsupport@logicmo.com"
+console.log(user.email)
+console.log(userone.email)
+
