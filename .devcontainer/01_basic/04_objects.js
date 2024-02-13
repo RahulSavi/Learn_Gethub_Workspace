@@ -29,9 +29,35 @@ const objt2 = {3: "c", 4: "d"}
 
 // const objt3 ={objt1,objt2}
 
-const objt3=Object.assign({},objt1,objt2)
+//const objt3=Object.assign({},objt1,objt2)
+const objt3 ={...objt1,...objt2}
+//console.log(objt3)
 
-console.log(objt3)
+const user =[{
+    id:1,
+    email:"rahuly@logicm.com"
+},
+{
+    id:2,
+    email:"ramesh@logicm.com"
+},
+{
+    id:3,
+    email:"rohit@logicm.com"
+},
+{
+    id:4,
+    email:"ritesh@logicm.com"
+},
+]
+
+user[1].email
+
+console.log(user)
+
+
+
+
 
 
 
