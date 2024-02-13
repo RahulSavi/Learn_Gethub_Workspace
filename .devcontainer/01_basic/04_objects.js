@@ -53,10 +53,21 @@ const user =[{
 
 user[1].email
 
-console.log(Object.keys(user_mgmt));
-console.log(Object.values(user_mgmt));
-console.log(Object.entries(user_mgmt));
-console.log(user_mgmt.hasOwnProperty('name'));
+// console.log(Object.keys(user_mgmt));
+// console.log(Object.values(user_mgmt));
+// console.log(Object.entries(user_mgmt));
+// console.log(user_mgmt.hasOwnProperty('name'));
+
+const course ={
+    coursename : "Javascript",
+    price:"99",
+    courseinstructor: "Myself"
+}
+
+const{courseinstructor:instructor} =course
+
+console.log(instructor)
+
 
 
 
