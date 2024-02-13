@@ -7,6 +7,17 @@ const user_details={
      lastloginday :["Monday","Saturday"]
 }
 
-console.log(user_details["full name"]);
+//console.log(user_details["full name"]);
 
-console.log(user_details.name);
+//console.log(user_details.name);
+
+user_details.hello = function(){
+    console.log("Hello user");
+}
+
+user_details.hello2 = function(){
+    console.log(`Hello user,${this.name}`);
+}
+
+console.log(user_details.hello);
+console.log(user_details.hello2);
