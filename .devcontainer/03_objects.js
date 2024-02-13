@@ -7,4 +7,6 @@ const user_details={
      lastloginday :["Monday","Saturday"]
 }
 
-console.log(user_details.["full name"]);
+console.log(user_details["full name"]);
+
+console.log(user_details.name);
