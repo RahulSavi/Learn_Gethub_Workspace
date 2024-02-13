@@ -19,5 +19,5 @@ user_details.hello2 = function(){
     console.log(`Hello user,${this.name}`);
 }
 
-console.log(user_details.hello);
-console.log(user_details.hello2);
+console.log(user_details.hello());
+console.log(user_details.hello2());
