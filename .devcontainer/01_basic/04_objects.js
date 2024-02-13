@@ -53,7 +53,11 @@ const user =[{
 
 user[1].email
 
-console.log(user)
+console.log(Object.keys(user_mgmt));
+console.log(Object.values(user_mgmt));
+console.log(Object.entries(user_mgmt));
+console.log(user_mgmt.hasOwnProperty('name'));
+
 
 
 
