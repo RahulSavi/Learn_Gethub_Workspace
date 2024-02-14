@@ -40,3 +40,13 @@ handleObject({
     username:"Rahul",
     price:299
 })
+const myarray =[200,300,4000]
+
+function secoundvalueinarray(newarray){
+    return newarray[1]
+
+}
+
+console.log(secoundvalueinarray(myarray))
+
+console.log(secoundvalueinarray([400,500,600]))
