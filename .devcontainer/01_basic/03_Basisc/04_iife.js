@@ -1,0 +1,1 @@
+//Immediately Invoked Funtion Expressions(IIFE)
