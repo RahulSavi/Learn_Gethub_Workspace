@@ -5,7 +5,7 @@ if (score>300)
 {
   
     
-console.log(`user power :${power}`);
+    console.log(`user power :${power}`);
 }else{
     console.log(`user power is  :${power1}`);
 }
